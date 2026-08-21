@@ -42,7 +42,7 @@ jobs:
                   
                   try:
                       # Increased timeout to 2 minutes (120000ms) for slow cold starts
-                      page.goto("https://bus-stop-survey-dpl6qeby3stuvpiexjhovk.streamlit.app/", 
+                      page.goto("https://bus-stop-survey-dpl6qeby3stuvpiexjhovk.streamlit.app/?state=SWQqwepC4b408qsj16OltnUZWlU7yk&iss=https://accounts.google.com&code=4/0ATsMZqAYD7eUAHoxiBlVpKy4fjy_oFpc0HM_7QW9Hf542F4XldHQ6SQkyEGHa_My2z5PlQ&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/spreadsheets", 
                                 wait_until="load", 
                                 timeout=120000)
                       
